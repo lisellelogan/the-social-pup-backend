@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  password_digest: MyString
+  pup_name: MyString
+  pup_age: 1
+  pup_breed: MyString
+  pup_location: MyString
+  pup_fully_vaccinated: false
+  owner_name: MyString
+  pup_personality: MyString
+
+two:
+  email: MyString
+  password_digest: MyString
+  pup_name: MyString
+  pup_age: 1
+  pup_breed: MyString
+  pup_location: MyString
+  pup_fully_vaccinated: false
+  owner_name: MyString
+  pup_personality: MyString
