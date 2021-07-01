@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
         if current_user
             render json: current_user.to_json
         else
-            render json: {message: "We can't find you. Please try agian."}
+            render json: {error: "We can't find you. Please try agian."}
         end
     end
 end
