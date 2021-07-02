@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
     end
 
     def destroy
-        @current_user.clear
+        @current_user = ""
         render json: {message: "logout successful. See you next time!"}
     end
 end
