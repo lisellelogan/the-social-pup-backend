@@ -6,5 +6,6 @@ class FriendshipsController < ApplicationController
 
     def create 
         friendship = Friendship.create_mutual_friendship(params[:user_id], params[:friend_id])
+        render json: friendship
     end
 end
