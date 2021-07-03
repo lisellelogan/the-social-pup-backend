@@ -1,7 +1,7 @@
 class UserSerializer
   include FastJsonapi::ObjectSerializer
   has_many :friendships
-  # has_many :friends
+  
   def friends 
     object.friends
   end
