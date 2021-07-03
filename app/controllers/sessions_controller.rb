@@ -14,6 +14,7 @@ class SessionsController < ApplicationController
             render json: UserSerializer.new(@current_user)
         else  
             render json: {alert: "Not logged in."}
+        end
     end
 
     def destroy
