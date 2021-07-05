@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
     def index
         users = User.all
-        render json: UserSerializer.new(users, include: [:friendships])
+        render json: UserSerializer.new(users)
     end
 
     def create 
