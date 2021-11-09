@@ -9,7 +9,7 @@ class UsersController < ApplicationController
         if user
             render json: UserSerializer.new(user)
         else  
-            render json: {error: "Hmmm something went wrong. Please try again."}
+            render json: {error: 'Hmmm something went wrong. Please try again.'}
         end
     end
 
